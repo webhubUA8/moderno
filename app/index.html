@@ -1,121 +1,684 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
-   <link rel="stylesheet" href="css/libs.min.css">
-   <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-   <header class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="rateyo/jquery.rateyo.css">
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
+  </head>
+  <body>
+    <header class="header">
       <div class="header__top">
-         
-
-         <div class="container">
-            <div class="header__top-inner">
-               <div class="header__logo">
-                  <a href="#">
-                     <img src="images/header/header-logo.png" alt="logo">
-                  </a>
-               </div>
-               <!-- /.header__logo  -->
-      
-               <div class="header__text">
-                  <a href="#"><span>Need help?</span></a> Talk to an expert: 
-                  <a class="header__phone"  href="tel:61383766284">+61 3 8376 6284</a>
-               </div>
-               <!-- /.header__text -->
-      
-               <div class="header__box">
-                  <a class="header__basket" href="#"></a>
-                  <a class="header__btn header__btn-login" href="#">Login</a>
-                  <a class="header__btn header__btn-register" href="#">Register</a>
-               </div>
-               <!-- /.header__box -->
+        <div class="container">
+          <div class="header__top-inner">
+            <div class="header__logo">
+              <a href="#">
+                <img src="images/header/header-logo.png" alt="logo" />
+              </a>
             </div>
-            <!-- /.header__top-inner -->
+            <!-- /.header__logo  -->
 
-         </div>
-      <!-- /.container -->
+            <div class="header__text">
+              <a href="#"><span>Need help?</span></a> Talk to an expert:
+              <a class="header__phone" href="tel:61383766284"
+                >+61 3 8376 6284</a
+              >
+            </div>
+            <!-- /.header__text -->
+
+            <div class="header__box">
+              <a class="header__basket" href="#"></a>
+              <a class="header__btn header__btn-login" href="#">Login</a>
+              <a class="header__btn header__btn-register" href="#">Register</a>
+            </div>
+            <!-- /.header__box -->
+          </div>
+          <!-- /.header__top-inner -->
+        </div>
+        <!-- /.container -->
       </div>
       <!-- /.header__top -->
 
       <div class="header__menu">
-         <div class="container">
-            <nav class="menu">
-               <ul class="menu__list">
-                  <li><a href="#">
-                     Home
-                  </a></li>
-                  <li><a href="#">
-                     About
-                  </a></li>
-                  <li><a href="#">
-                     WordPress
-                  </a></li>
-                  <li><a href="#">
-                     Joomla
-                  </a></li>
-                  <li><a href="#">
-                     PSD
-                  </a></li>
-                  <li><a href="#">
-                     Plugins
-                  </a></li>
-                  <li><a href="#">
-                     Components
-                  </a></li>
-                  <li><a href="#">
-                     Pages
-                  </a></li>
-                  <li><a href="#">
-                     Contact
-                  </a></li>
-                  <li><a href="#">
-                     Help
-                  </a></li>
-               </ul>
-            </nav>
-            <!-- /.menu -->
-         </div>
-         <!-- /.container -->
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li><a href="#"> Home </a></li>
+              <li><a href="#"> About </a></li>
+              <li><a href="#"> WordPress </a></li>
+              <li><a href="#"> Joomla </a></li>
+              <li><a href="#"> PSD </a></li>
+              <li><a href="#"> Plugins </a></li>
+              <li><a href="#"> Components </a></li>
+              <li><a href="#"> Pages </a></li>
+              <li><a href="#"> Contact </a></li>
+              <li><a href="#"> Help </a></li>
+            </ul>
+          </nav>
+          <!-- /.menu -->
+        </div>
+        <!-- /.container -->
       </div>
       <!-- /.header__menu -->
-      
-   </header>
-   <!-- /.header -->
+    </header>
+    <!-- /.header -->
 
-   <section class="search" style="background-image: url(images/bg-search.jpg);">
+    <section class="search" style="background-image: url(images/bg-search.jpg)">
       <div class="container">
-         <div class="search__inner">
-            <div class="search__inner-title">
-               Welcome To Foxtar Market Place!
-            </div>
-            <div class="search__inner-text">
-               Premium WordPress Themes, Web Templates and Many More ...
-            </div>
-            <div class="search__inner-form">
-               <form action="">
-                  <input type="text" placeholder="Search Your Keywords . . ." required>
-                  <button type="submit">
-                     <img src="images/icons/search-icon.png" alt="search-icon">
-                  </button>
-               </form>
-            </div>
-            <!-- /.search__inner-form -->
-         </div>
-         <!-- /.search__inner -->
+        <div class="search__inner">
+          <div class="search__inner-title animate__animated animate__bounceInDown">Welcome To Foxtar Market Place!</div>
+          <div class="search__inner-text">
+            Premium WordPress Themes, Web Templates and Many More ...
+          </div>
+          <div class="search__inner-form">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Search Your Keywords . . ."
+                required
+              />
+              <button type="submit">
+                <img src="images/icons/search-icon.png" alt="search-icon" />
+              </button>
+            </form>
+          </div>
+          <!-- /.search__inner-form -->
+        </div>
+        <!-- /.search__inner -->
       </div>
       <!-- /.container -->
-   </section>
-   <!-- /.search -->
-   
+    </section>
+    <!-- /.search -->
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="js/libs.min.js"></script>
-   <script src="js/main.min.js"></script>
-</body>
+    <section class="products">
+      <div class="container-fluid">
+        <div class="products_title title animate__animated animate__bounceInDown">
+          Let’s Check Out Our Newest Release Prodcuts
+        </div>
+        <div class="products__inner">
+          <div class="products__inner-btn">
+            <button class="active" type="button" name="products" data-filter="all" data-btn="products">All</button>
+            <button type="button" name="products" data-filter="category-wordpress" data-btn="products">WordPress</button>
+            <button type="button" name="products" data-filter="category-joomla" data-btn="products">Joomla</button>
+            <button type="button" name="products" data-filter="category-plugins" data-btn="products">Plugins</button>
+            <button type="button" name="products" data-filter="category-component" data-btn="products">Component</button>
+            <button type="button" name="products" data-filter="category-psd" data-btn="products">PSD</button>
+          </div>
+          <!-- /.products__inner-btn -->
+
+          <div class="products__inner-box">
+
+            <div class="product__item mix category-component category-new" data-order="1">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Responsive Mobile APP</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-plugins category-popular" data-order="2">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">The Post Grid Pro</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-wordpress" data-order="3">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Food Menu</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-psd" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-joomla category-new" data-order="5">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Gymedge</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-plugins category-new" data-order="6">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">The Post Grid</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-component category-popular" data-order="7">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Doll Face</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item mix category-psd" data-order="8">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Designer Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star">
+                  <div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+          </div>
+          <!-- /.products__inner-box -->
+        </div>
+        <!-- /.products__inner -->
+
+        <div class="products__bottom-btn">
+           <button class="category-new" type="button" name="products" data-filter="category-new" data-btn="products">All New Items</button>
+           <button class="category-popular" type="button" name="products" data-filter="category-popular" data-btn="products">Popular Items</button>
+        </div>
+        <!-- /.products__bottom-btn -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.products -->
+
+    <section class="product-slider">
+      <div class="container-fluid">
+        <div class="product-slider__title title">
+          This Week Trending Products
+        </div>
+        <!-- /.product-slider__title -->
+          <div class="product-slider__inner">
+            
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+            <div class="product__item" data-order="4">
+              <a
+                class="product__item-img"
+                style="
+                  background-image: url(images/products/product-item-1.jpg);
+                "
+              href="#"></a>
+              <div class="product__item-content">
+                <div class="product__item-name">
+                  <a class="product__item-title" href="#">Imac Mockup</a>
+                  <a class="product__item-category" href="#"> Site Template </a>
+                </div>
+                <div class="product__item-price">$19</div>
+              </div>
+
+              <div class="product__item-info">
+                <a class="product__item-author" href="#">
+                   <div class="product__item-avatar" style="background-image: url(images/products/avatar.png)"></div>
+                  <span>Radiustheme</span>
+                  
+                </a>
+                <div class="product__item-star"><div class="rate-star"></div> (<span>05</span>)</div>
+              </div>
+            </div>
+            <!-- /.product_item -->
+
+          </div>
+          <!-- /.product-slider__inner -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.product-slider -->
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="rateyo/jquery.rateyo.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
