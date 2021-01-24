@@ -86,14 +86,14 @@
    text-align: center;
    &-title {
       font-size: 48px;
-      font-weight: 700;
+      @include f700;
       line-height: 72px;
 
       margin-bottom: 10px;
    }
    &-text {
       font-size: 20px;
-      font-weight: 500;
+      @include f500;
       margin-bottom: 45px;
       line-height: 30px;
    }
@@ -112,7 +112,7 @@
          letter-spacing: 0.7px;
          text-align: left;
          font-size: 14px;
-         font-weight: 500;
+         @include f500;
          border: none;
          &::placeholder {
             color: #95a3ac;
@@ -146,7 +146,7 @@
       color: $bg;
 
       font-size: 14px;
-      font-weight: 500;
+      @include f500;
       cursor: pointer;
       & + button {
          margin-left: 5px;
@@ -198,13 +198,13 @@
    &-title {
       color: $bg;
       font-size: 18px;
-      font-weight: 500;
+      @include f500;
       margin-bottom: 10px;
    }
    &-price {
       color: $bg;
       font-size: 20px;
-      font-weight: 700;
+      @include f700;
    }
    &-category {
       display: block;
@@ -222,7 +222,7 @@
    }
    &-author {
       font-size: 14px;
-      font-weight: 500;
+      @include f500;
 
       display: flex;
       align-items: center;
@@ -301,4 +301,63 @@
    }
 }
 
+//============== ADVANTAGES ==============
+.advantages {
+   background-color: $bg;
+   padding: 110px 0;
+}
 
+.advantages__title {
+   color: #fff;
+}
+
+.advantages__inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+.advantages__item {
+   max-width: 370px;
+   text-align: center;
+   padding: 0 15px;
+   &:hover {
+      .advantages__item-images {
+         background-color: $green;
+      }
+      .advantages__item-title {
+         color: $green;
+      }
+      .advantages__item-images svg {
+         fill: #fff;
+      }
+   }
+   &-images {
+      width: 114px;
+      height: 114px;
+      background-color: #fff;
+      border-radius: 50%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto 33px;
+
+      transition: all 0.5s;
+      svg {
+         height: 74px;
+         margin: 0 auto;
+         transition: all 0.5s;
+      }
+   }
+   &-title {
+      font-size: 24px;
+      color: #fff;
+      @include f500;
+      margin-bottom: 25px;
+
+      transition: all 0.5s;
+   }
+   &-text {
+      font-size: 15px;
+   }
+}
