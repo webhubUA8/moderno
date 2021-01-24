@@ -342,11 +342,11 @@
       align-items: center;
       margin: 0 auto 33px;
 
-      transition: all 0.5s;
+      transition: all 0.8s;
       svg {
          height: 74px;
          margin: 0 auto;
-         transition: all 0.5s;
+         transition: all 0.8s;
       }
    }
    &-title {
@@ -355,9 +355,47 @@
       @include f500;
       margin-bottom: 25px;
 
-      transition: all 0.5s;
+      transition: all 0.8s;
    }
    &-text {
       font-size: 15px;
+   }
+}
+
+//============= AUTHOR =================
+.author {
+   background-position: center;
+   background-size: cover;
+
+   min-height: 760px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   &__box {
+      min-width: 650px;
+      min-height: 215px;
+      background-color: $green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // padding: 0 60px;
+      &-title {
+         font-size: 30px;
+         line-height: 30px;
+         color: #fff; 
+         max-width: 265px;
+         margin-right: 48px;
+         span {
+            @include f700;
+         }
+      }
+   }
+   &__link {
+      background-color: #fff;
+      padding: 20px 43px;
+      font-size: 18px;
+      // color: $bg;
    }
 }
