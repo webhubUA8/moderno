@@ -399,3 +399,33 @@
       // color: $bg;
    }
 }
+
+//=============== TUTORIAL ================
+.tutorial {
+   padding: 60px 0 120px;
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+   }
+   
+}
+
+.tutorial__item {
+   max-width: 370px;
+   width: 100%;
+   &-image {
+      min-height: 240px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   &-title {
+      background-color: #f8f8f8;
+      font-size: 24px;
+      text-align: center;
+      @include f700;
+      color: $bg;
+
+      padding: 30px 10px;
+   }
+}
