@@ -9,8 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
@@ -24,6 +27,7 @@
     />
   </head>
   <body>
+
     <header class="header">
       <div class="header__top">
         <div class="container">
@@ -44,11 +48,189 @@
             <!-- /.header__text -->
 
             <div class="header__box">
-              <a class="header__basket" href="#"></a>
-              <a class="header__btn header__btn-login" href="#">Login</a>
-              <a class="header__btn header__btn-register" href="#">Register</a>
+
+              <div class="notification__box header__btn-login--off">
+                <a class="notification header__circle icon-envelope-o active"
+                href="#">
+                <span>8</span></a>
+
+                <div class="circle__menu notification__menu">
+
+                  <a href="#" class="circle__item icon-bell-o icons-color">
+                    <img class="circle__images" src="images/header/circle-icon1.png" alt="#">
+                      <div class="circle__info">
+                        <div class="circle__info-thema">WordPress</div>
+                        <div class="circle__info-date">01 Dec, 2016</div>
+                      </div>
+                      <!-- /.circle__info -->
+                    </a>
+                    <!-- /.circle__item -->
+
+                    <a href="#" class="circle__item icon-bell-o">
+                      <img class="circle__images" src="images/header/circle-icon2.png" alt="#">
+                      <div class="circle__info">
+                        <div class="circle__info-thema">WordPress</div>
+                        <div class="circle__info-date">26 Nov, 2016</div>
+                      </div>
+                      <!-- /.circle__info -->
+                    </a>
+                    <!-- /.circle__item -->
+
+                    <a href="#" class="circle__item icon-bell-o">
+                      <img class="circle__images" src="images/header/circle-icon3.png" alt="#">
+                      <div class="circle__info">
+                        <div class="circle__info-thema">WordPress</div>
+                        <div class="circle__info-date">26 Nov, 2016</div>
+                      </div>
+                      <!-- /.circle__info -->
+                    </a>
+                    <!-- /.circle__item -->
+
+                </div>
+                <!-- /.notification__menu -->
+              </div>
+              <!-- /.notification__box -->
+
+              <div class="message__box header__btn-login--off">
+                  <a class="message header__circle icon-bell-o active" href="#">
+                    <span>5</span></a>
+                    <div class="circle__menu message__menu">
+
+                      <a href="#" class="circle__item icon-envelope-o icons-color">
+                        <img class="circle__images" src="images/header/circle-icon1.png" alt="#">
+                          <div class="circle__info">
+                            <div class="circle__info-name">Kazi Fahim</div>
+                            <div class="circle__info-thema">WordPress</div>
+                            <div class="circle__info-date">01 Dec, 2016</div>
+                          </div>
+                          <!-- /.circle__info -->
+                        </a>
+                        <!-- /.circle__item -->
+    
+                        <a href="#" class="circle__item icon-envelope-o">
+                          <img class="circle__images" src="images/header/circle-icon2.png" alt="#">
+                          <div class="circle__info">
+                            <div class="circle__info-name">Richi Lenal</div>
+                            <div class="circle__info-thema">WordPress</div>
+                            <div class="circle__info-date">26 Nov, 2016</div>
+                          </div>
+                          <!-- /.circle__info -->
+                        </a>
+                        <!-- /.circle__item -->
+    
+                        <a href="#" class="circle__item icon-mail-reply">
+                          <img class="circle__images" src="images/header/circle-icon3.png" alt="#">
+                          <div class="circle__info">
+                            <div class="circle__info-name">PsdBosS</div>
+                            <div class="circle__info-thema">WordPress</div>
+                            <div class="circle__info-date">26 Nov, 2016</div>
+                          </div>
+                          <!-- /.circle__info -->
+                        </a>
+                        <!-- /.circle__item -->
+
+                    </div>
+                    <!-- /.message__menu -->
+              </div>
+              <!-- /.message__box -->
+              
+
+              <div class="basket__box">
+                <a
+                  class="basket header__circle icon-shopping-cart active"
+                  href="#"
+                  ><span>8</span></a
+                >
+                <div class="circle__menu">
+
+                  <div class="circle__item">
+                    <img class="circle__images" src="images/header/basket-icon1.png" alt="#">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Grand Ballet</div>
+                        <div class="circle__info-thema">WordPress</div>
+                        <div class="circle__info-price">$59</div>
+                      </div>
+                      <!-- /.circle__info -->
+                    </div>
+                    <!-- /.circle__item -->
+
+                    <div class="circle__item">
+                      <img class="circle__images" src="images/header/basket-icon2.png" alt="#">
+                      <div class="circle__info">
+                        <div class="circle__info-name">Grand Ballet</div>
+                        <div class="circle__info-thema">WordPress</div>
+                        <div class="circle__info-price">$59</div>
+                      </div>
+                      <!-- /.circle__info -->
+                    </div>
+                    <!-- /.circle__item -->
+
+                    <div class="basket__summ">
+                      <div class="basket__summ-title">
+                        <div class="basket__summ-total">Total</div>
+                        <div class="basket__summ-money">$118</div>
+                      </div>
+                      <!-- /.basket__title -->
+                      <a class="basket__btn" href="#">Go to Cart</a>
+                      <a class="basket__btn basket__btn-checkout" href="#">Go to Checkout</a>
+                    </div>
+                    <!-- /.basket__summ -->
+                </div>
+                <!-- /.circle__menu -->
+              </div>
+              <!-- /.basket__box -->
+
+              <div class="user__box header__btn-login--off">
+                <a class="user" href="#">
+                  <div class="user__inner">
+                    <div class="user__images">
+                      <img src="images/mike-icon.jpg" alt="mike" />
+                    </div>
+                    <div class="user__info">
+                      <div class="user__name">Mike Hussy</div>
+                      <div class="user__money">$171.00</div>
+                    </div>
+                  </div>
+                  <!-- /.user__inner -->
+                </a>
+                <div class="user__menu">
+                  <ul>
+                    <li><a class="angle-right" href="#">Profile Page</a></li>
+                    <li><a class="angle-right" href="#">Portfolio</a></li>
+                    <li><a class="angle-right" href="#">Account Setting</a></li>
+                    <li><a class="angle-right" href="#">Downloads</a></li>
+                    <li><a class="angle-right" href="#">Wishlist</a></li>
+                    <li><a class="angle-right" href="#">Upload Item</a></li>
+                    <li><a class="angle-right" href="#">Statement</a></li>
+                    <li><a class="angle-right" href="#">Withdraws</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.user__box -->
+
+              <a
+                class="header__btn header__btn-login"
+                href="#"
+                >Login</a
+              >
+              <a
+                class="header__btn header__btn-logout header__btn-login--off"
+                href="#"
+                >Logout</a
+              >
+              <a
+                class="header__btn header__btn-register"
+                href="#"
+                >Register</a
+              >
             </div>
             <!-- /.header__box -->
+
+            <div class="header__btn-menu">
+              <img src="https://cdn.iconscout.com/icon/free/png-256/laptop-user-1-1179329.png" alt="user">
+            </div>
+            <!-- /.header__btn-menu -->
+
           </div>
           <!-- /.header__top-inner -->
         </div>
@@ -59,6 +241,12 @@
       <div class="header__menu">
         <div class="container">
           <nav class="menu">
+            <div class="menu__btn">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <!-- /.menu__btn -->
             <ul class="menu__list">
               <li><a href="#"> Home </a></li>
               <li><a href="#"> About </a></li>
@@ -1069,17 +1257,14 @@
     </section>
     <!-- /.advantages -->
 
-    <section class="author" style="background-image: url(images/author-bg.jpg);">
+    <section class="author" style="background-image: url(images/author-bg.jpg)">
       <div class="author__box">
         <div class="author__box-title">
-          Over <span>20,000</span> Author 
-          Are Involved Here!
+          Over <span>20,000</span> Author Are Involved Here!
         </div>
         <!-- /.author__box-title -->
 
-        <a class="author__link" href="#">
-          Become A Author
-        </a>
+        <a class="author__link" href="#"> Become A Author </a>
         <!-- /.author__link -->
       </div>
       <!-- /.author__box -->
@@ -1089,38 +1274,36 @@
     <section class="tutorial">
       <div class="container">
         <div class="tutorial__title title">
-          Free Monthly Tutorials To Help You With Your Project 
+          Free Monthly Tutorials To Help You With Your Project
         </div>
         <!-- /.tutorial__title -->
         <div class="tutorial__inner">
-
           <div class="tutorial__item">
-            <div class="tutorial__item-image" style="background-image: url('images/tutorial/item-1.jpg');">
-            </div>
-            <div class="tutorial__item-title">
-              Web Design Tutorials
-            </div>
+            <div
+              class="tutorial__item-image"
+              style="background-image: url('images/tutorial/item-1.jpg')"
+            ></div>
+            <div class="tutorial__item-title">Web Design Tutorials</div>
           </div>
           <!-- /.tutorial__item -->
 
           <div class="tutorial__item">
-            <div class="tutorial__item-image" style="background-image: url('images/tutorial/item-2.jpg');">
-            </div>
-            <div class="tutorial__item-title">
-              WordPress Tutorials
-            </div>
+            <div
+              class="tutorial__item-image"
+              style="background-image: url('images/tutorial/item-2.jpg')"
+            ></div>
+            <div class="tutorial__item-title">WordPress Tutorials</div>
           </div>
           <!-- /.tutorial__item -->
 
           <div class="tutorial__item">
-            <div class="tutorial__item-image" style="background-image: url('images/tutorial/item-3.jpg');">
-            </div>
-            <div class="tutorial__item-title">
-              HTML & CSS Tutorials
-            </div>
+            <div
+              class="tutorial__item-image"
+              style="background-image: url('images/tutorial/item-3.jpg')"
+            ></div>
+            <div class="tutorial__item-title">HTML & CSS Tutorials</div>
           </div>
           <!-- /.tutorial__item -->
-
         </div>
         <!-- /.tutorial__inner -->
       </div>
@@ -1132,18 +1315,16 @@
       <div class="footer__content">
         <div class="container">
           <div class="footer__inner">
-
-            <div class="footer__col">
-              <div class="footer__col-title">
-                About Company 
-              </div>
+            <div class="footer__col footer__col-address">
+              <div class="footer__col-title">About Company</div>
               <!-- /.footer__col-title -->
               <div class="footer__col-text">
-                Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. 
+                Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim
+                digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum
+                purus.
               </div>
               <div class="footer__info">
-                PO Box 16122 Collins Street West 
-                Victoria 8007 Australia
+                PO Box 16122 Collins Street West Victoria 8007 Australia
               </div>
               <a class="footer__info footer__info-phone" href="tel:61383766284">
                 +61 3 8376 6284
@@ -1152,9 +1333,7 @@
             <!-- /.footer__col -->
 
             <div class="footer__col footer__col-menu">
-              <div class="footer__col-title">
-                Join Our Community 
-              </div>
+              <div class="footer__col-title">Join Our Community</div>
               <!-- /.footer__col-title -->
               <ul class="footer__col-list">
                 <li><a href="#">Home</a></li>
@@ -1167,9 +1346,7 @@
             <!-- /.footer__col -->
 
             <div class="footer__col footer__col-menu">
-              <div class="footer__col-title">
-                Need Help?
-              </div>
+              <div class="footer__col-title">Need Help?</div>
               <!-- /.footer__col-title -->
               <ul class="footer__col-list">
                 <li><a href="#">Help Center</a></li>
@@ -1181,10 +1358,8 @@
             </div>
             <!-- /.footer__col-3 -->
 
-            <div class="footer__col">
-              <div class="footer__col-title">
-                Follow Us On
-              </div>
+            <div class="footer__col footer__col-social">
+              <div class="footer__col-title">Follow Us On</div>
               <!-- /.footer__col-title -->
               <ul class="footer__social-link">
                 <li><a class="link-facebook" href="#"></a></li>
@@ -1194,17 +1369,14 @@
                 <li><a class="link-linkedin" href="#"></a></li>
               </ul>
               <div class="footer__form">
-                <div class="footer__form-title">
-                  Newsletter Sign Up!
-                </div>
+                <div class="footer__form-title">Newsletter Sign Up!</div>
                 <form action="#">
-                  <input type="text" placeholder="E-mail Address">
+                  <input type="text" placeholder="E-mail Address" />
                   <button type="submit"></button>
                 </form>
               </div>
             </div>
             <!-- /.footer__col - 4 -->
-
           </div>
           <!-- /.footer__inner -->
         </div>
@@ -1215,7 +1387,8 @@
       <div class="footer__copy">
         <div class="container">
           <div class="footer__copy-text">
-            © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+            © 2017 Foxtar market place. Trademarks and brands are the property
+            of their respective owners.
           </div>
         </div>
         <!-- /.container -->
